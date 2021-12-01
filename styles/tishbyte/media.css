@@ -1,0 +1,129 @@
+@media (max-width: 900px ){
+	.menu-left2 {
+		display: none;
+		height: -21px;
+		-webkit-transition: ease-in-out 0.2s;
+		-moz-transition: ease-in-out 0.2s;
+	}
+	.city-drop {
+		display: block !important;
+	}
+}
+
+@media (max-width: 768px ){
+	nav.sidebar.navbar {
+		background: #384572;
+	}
+	nav.sidebar.navbar {
+		background: #384572 !important;
+	}
+	nav.sidebar.navbar ul a {
+		color: #fff;
+	}
+	nav.sidebar.navbar ul a .glyphicon {
+		margin-right: 21px;
+	}
+	#accountVerify .verifyBlock h2 {
+		font-size: 100% !important;
+	}
+	#medlle-dashbaord .menu-left  .active > a  {
+		background-image: none;
+		background: #fc8019 !important; 
+	}
+	#meddle-content {
+		min-height: 300px;
+	}
+	#left-menu {
+		position: relative !important;
+		min-height: 0vh !important;
+	}
+	.profile-img {
+		margin-bottom: 12px;
+	}
+	.blk-careers {
+		width: 49% !important;
+		margin-right: 0px;
+		margin-bottom: 12px;
+	}
+	.time-clock:before {
+		right: 50%;
+	}
+	.img-head-right {
+		min-height: 400px;
+	}
+	.body-chefpage .blk-icons:before {
+		display: none !important;
+	}
+	.header {
+		background-position: left !important;
+	}
+	.header h2 {
+		margin-top: 12px;
+	}
+	#banner-about-us {
+		background-position: center;
+		min-height: 440px;
+	}
+	.percentage h1 {
+		font-size: 28px;
+	}
+	#content-n-b .blk-invite {
+		margin-bottom: 12px;
+	}
+	#affiliate-form form .input-group-addon {
+		position: static !importnat;
+		float: inherit !importnat;
+	}
+}
+
+
+@media (max-width: 500px ){ 
+	.search-home {
+		display: none;
+	}
+	.stores-h {
+		display: none;
+	}
+	.wrap-prof-chef .blk-prof {
+		padding: 15px;
+	}
+	.popup-box {
+		right: 0% !important;
+		max-width: 100%;
+	}
+	.header h2 {
+		font-size: 100% !important;
+		margin-top: 14px !important;
+	}
+	.profile-img{
+		margin-top: 14px !important;
+	}
+	.provincy-top {
+		margin-top: auto;
+	}
+	.status-pages .header-pages {
+		margin-left: 10%;
+	}
+	.status-pages:before,
+	.status-pages:after {
+		display: none;
+	}
+	.header {
+		background-position: left;
+		min-height: 210px;
+	}
+	.header h2 {
+		display: none;
+	}
+	.logo {
+		margin-bottom: 5px;
+	}
+	.form-search #sa-map {
+		display: none;
+	}
+	
+	.download-bt ul li {
+		width: 100% !important;
+	}
+	
+}

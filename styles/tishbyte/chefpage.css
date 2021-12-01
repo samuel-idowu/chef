@@ -1,0 +1,636 @@
+.navbar-custom {
+    background: #fff !important;
+    border-radius: 0px !important;
+    padding: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-custom .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a {
+    color: #db8220 !important;
+    background-image: none;
+   	background-color: transparent; 
+   	border-left: 2px solid #db8220;
+}
+ 
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+   	color: #ffb500 !important;
+   /*	background-color: #e31300;*/
+   background: transparent;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #333 !important;
+    display: block;
+    line-height: 35px;
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    -o-transition: linear 0.2s;
+    transition: linear 0.2s;
+    font-weight: bolder;
+    margin-top: 35px;
+}
+.navbar-custom  .navbar-toggle {
+    border-color: none !important;
+    background-color: #000000 !important;
+    border: none;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #ff9235 !important;
+    border-color: none !important;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #ff9235;;
+}
+.navbar-custom .navbar-toggle:hover .icon-bar,
+.navbar-custom .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+.navbar-custom .dropdown-menu {
+	background: #ff9235;
+	padding-bottom: 0px;
+}
+.navbar-custom .dropdown-menu li > a {
+	color: #fff !important;
+}
+.navbar-custom .dropdown-menu li > a:hover {
+	color: #ffb500 !important;
+}
+.navbar-custom .dropdown-menu > .active > a {
+	background: #ffb500;
+	line-height: 35px;
+	color: #000 !important;
+}
+/*
+ *  STYLE 3
+ */
+
+
+
+.body-chefpage {
+	min-height: 340px;
+	width: 100%;
+	background: #fff;
+}
+.body-chefpage .blk-icons {
+	width: 100%;
+	min-height: 140px;
+	background: #394573 url('../../images/banner-chef.png') no-repeat center 100%;
+	background-size: cover;
+	position: relative;
+}
+.body-chefpage .blk-icons:before {
+	position: absolute;
+	content: '';
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-left: 15px solid #394573;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	margin-top: 45px;
+	z-index: 99;
+}
+.blk-icons .icons-chef {
+	width: 25%;
+	padding: 6px;
+	min-height: 130px;
+	float: left;
+	clear: right;
+	color: #fff;
+	text-align: center;
+	font-weight: bolder;
+}
+.blk-icons .icons-chef .icons-chefmain {
+	width: 67px;
+	min-height: 69px;
+	background: url('../../images/icon-cake.png')no-repeat 50%;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.blk-icons .icons-chef #icons-chef2 {
+	background: url('../../images/icon-cake1.png')no-repeat 50%;
+	background-size: contain;
+}
+.blk-icons .icons-chef #icons-chef3 {
+	background: url('../../images/icon-cake2.png')no-repeat 50%;
+	background-size: contain;
+}
+.blk-icons .icons-chef #icons-chef4 {
+	background: url('../../images/icon-cake3.png')no-repeat 50%;
+	background-size: contain;
+}
+
+.wrap-prof-chef {
+	width: 350px;
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 140px;
+	position: relative;
+	clear: both;
+}
+.wrap-prof-chef .blk-prof {
+	float: left;
+	clear: right;
+	width: 50%;
+	min-height: 140px;
+	background: #fff;
+	text-align: left;
+}
+.img-search-chef {
+	width: 140px;
+	min-height: 140px;
+	background: #333;
+	overflow: hidden;
+	position: relative;
+}
+.img-search-chef img {
+	width: 180px;
+	max-width: 100%;
+	transform: scale(1.09);
+	-webkit-transform: scale(1.09);
+	-moz-transform: scale(1.09);
+	-ms-transform: scale(1.09);
+	-o-transform: scale(1.09);
+}
+
+#prof-chef-content {
+	text-align: left;
+	padding: 10px;
+	color: #394573;
+	line-height: -28px;
+}
+#prof-chef-content strong {
+	line-height: 24px;
+}
+#prof-chef-content h4 {
+	font-weight: bolder;
+}
+#prof-chef-content .glyphicon {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+#prof-chef-content button {
+	width: 180px;
+	max-width: 100%;
+	background: #ff9235;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	padding: 6px;
+	margin-top: 12px;
+}
+#prof-chef-content button span:first-child {
+	float: left;
+	text-indent: 8px;
+}
+.chef-order h1 {
+	color: #5b5b5b;
+	text-align: center;
+	font-family: Courier New;
+}
+.chef-order h1 span {
+	font-weight: bolder;
+	font-family: arial;
+	line-height: 18px;
+}
+.chef-order p {
+	text-align: center;
+	line-height: 22px;
+	letter-spacing: 1.6px;
+}
+.line-chef {
+	height: 4px;
+	background: #757575;
+	position: relative;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+.line-chef:before {
+	position: absolute;
+	content: "";
+	width: 60px;
+	height: 35px;
+	background: #fff url('../../images/chef-icon.png')no-repeat 50%;
+	background-size: contain;
+	z-index: 22;
+	top: -16px;
+	margin-left: 46%;
+}
+.select {
+  display:flex;
+  flex-direction: column;
+  position:relative;
+  width:600px;
+  max-width: 100%;
+  max-width: 100%;
+  height:40px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+.option {
+  padding:0 30px 0 10px;
+  min-height:40px;
+  display:flex;
+  align-items:center;
+  background:#222c53;
+  color: #fff !important;
+  border-top:#222 solid 1px;
+  position:absolute;
+  top:0;
+  width: 100%;
+  pointer-events:none;
+  order:2;
+  z-index:22;
+  transition:background .4s ease-in-out;
+  box-sizing:border-box;
+  overflow:hidden;
+  white-space:nowrap;
+  
+}
+
+.option:hover {
+  background:#fc8019;
+  color: #fff !important;
+}
+
+.select:focus .option {
+  position:relative;
+  pointer-events:all;
+  margin-bottom: 0px;
+}
+
+#selectOrder input {
+  opacity:0;
+  position:absolute;
+  color: #fff !important;
+  left:-99999px;
+}
+
+#selectOrder input:checked + label {
+  order: 1;
+  z-index:23;
+  background:#222c53;
+  border-top:none;
+  color: #fff !important;
+  position:relative;
+}
+
+#selectOrder input:checked + label:after {
+  content:'';
+  width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid white;
+  position:absolute;
+  right:10px;
+  top:calc(50% - 2.5px);
+  pointer-events:none;
+  z-index:23;
+}
+
+#selectOrder input:checked + label:before {
+  position:absolute;
+  right:0;
+  height: 40px;
+  width: 40px;
+  content: '';
+  background: #fc8019;
+  background: linear-gradient(#fda862,#fc8019);
+  background: -webkit-linear-gradient(#fda862,#fc8019);
+}
+.chef-order form {
+	padding: 10px;
+}
+.chef-order form p {
+	text-align: left;
+	line-height: normal;
+	letter-spacing: normal;
+}
+#checkoutPrice {
+	width: 600px;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: #222c53;
+}
+#checkoutPrice .col-sm-6 {
+	padding: 0;
+}
+#price-l {
+	width: 100% !important;
+	margin: 0 auto;
+}
+#price-l td {
+	text-indent: 10px;
+	background: #394573;
+	color: #fff;
+	padding: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	border-bottom: thin solid #ccc;
+	width: 100%;
+}
+#price-l td:first-child {
+	background: #6f7799;
+	color: #fff;
+}
+
+#price-l tr:last-child td:nth-child(2) {
+	border-bottom: none !important;
+}
+#price-cont {
+	padding: 12px;
+	color: #fff;
+}
+
+#form-option .input-group-addon {
+	background: #ddcec3;
+	color: #ff9235;
+	border-radius: 0px;
+}
+.order-list2 {
+	display: none;
+}
+.order-list button {
+	width: 400px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	line-height: 45px;
+	border: 0px;
+	font-size: 21px;
+	color: #fff;
+	background: #fb8019;
+}
+.order-list button:hover,
+.order-list button:focus,
+.order-list button:active {
+	background: #e86800;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+.hours select {
+	color: #333;
+	padding: 8px;
+}
+
+.gallery-img {
+	margin-top: 24px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	background: #999;
+}
+
+#rig {
+    width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0px;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#fff;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:33.3333%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+    height: 170px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    margin:4px;
+    box-shadow:0 0 2px rgba(0,0,0,0.3);
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000 url(../images/chef-icon2.html) no-repeat center 50%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+    -wenkit-transition:all 0.6s;
+    -moz-transition:all 0.6s;
+    -ms-transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.5;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:70px;
+    height: 70px;
+    margin: 0 auto;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:58px;
+    font-weight:bolder;
+    font-family: 'arial', sans-serif;
+    font-weight:normal!important;
+    top:34%;
+    left:33%;
+    color: #d1232a;
+    background: url('../../images/camera.html')no-repeat 50%;
+    background-size: contain;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+#myModalFollow  {
+	background: rgba(0,0,0,0.5);
+}
+.icon-small-follow {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background:  url('../../images/thumbs-up.png')no-repeat center 50%;
+	background-size: contain;
+}
+.icon-small-follow2 {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background:  url('../../images/thumbs-up2.png')no-repeat center 50%;
+	background-size: contain;
+}
+#myModalFollow .modal-content {
+	margin-top: 35%;
+	text-align: center;
+}
+.dishes-chef {
+	width:120px;
+}
+
+/* Progress Bar */
+.progress {
+  position: relative;
+  height: 5px;
+  display: block;
+  width: 100%;
+  background-color: #d98c24;
+  border-radius: 2px;
+  background-clip: padding-box;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden; 
+}
+.progress .determinate {
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    bottom: 0;
+    background-color: #d98c24;
+    transition: width .3s linear; 
+}
+.progress .indeterminate {
+    background-color: #d98c24; 
+}
+.progress .indeterminate:before {
+      content: '';
+      position: absolute;
+      background-color: inherit;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      will-change: left, right;
+      -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+              animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+.progress .indeterminate:after {
+      content: '';
+      position: absolute;
+      background-color: inherit;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      will-change: left, right;
+      -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+              animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+      -webkit-animation-delay: 1.15s;
+              animation-delay: 1.15s; }
+
+@-webkit-keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+@keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+@-webkit-keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+@keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+
+
+@media (max-width: 767px) {
+    #rig li {
+        width:33.3333%;
+        height: 180px;
+    }
+    .rig-overlay {
+		background: #000 url(../../images/chef-icon2.png) no-repeat center 50%;
+	}
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width: 33.3333%;
+        height: 100px;
+    }
+    .rig-overlay {
+		background: #000 url(../../images/chef-icon2.png) no-repeat center 20%;
+	}
+}

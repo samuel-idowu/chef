@@ -1,0 +1,111 @@
+
+
+
+#cropImagePop .modal-content {
+	background-image: none;
+	background: #384572 !important;
+	margin-top: 15%;
+	padding: 0 !important;
+}
+#cropImagePop .modal-header{
+	background: none !important;
+	color: #fff;
+	border-bottom: 0px;
+	text-align: center;
+	position: relative;
+}
+#cropImagePop .modal-header .close {
+	position: absolute;
+	content: '';
+	z-index: 66;
+	top: -13px;
+	right: -13px;
+	width: 45px;
+	height: 45px;
+	background: #fb8019;
+	color: #000;
+	font-size: 26px;
+	opacity: 1 !important;
+	-webkit-border-radius: 5em;
+	-moz-border-radius: 5em;
+	-ms-border-radius: 5em;
+	-o-border-radius: 5em;
+	border-radius: 5em;
+}
+#cropImagePop .modal-header .close:hover {
+	opacity: 0.8;
+	color: #fff;
+	-webkit-transition: ease-in-out 0.2s;
+	-moz-transition: ease-in-out 0.2s;
+	-ms-transition: ease-in-out 0.2s;
+	-o-transition: ease-in-out 0.2s;
+	 transition: ease-in-out 0.2s;
+}
+#cropImagePop .modal-footer {
+	border-top: 0px !important;
+	margin-top: 25px;
+}
+#cropImagePop .modal-footer button {
+	width: 120px;
+	max-width: 100%;
+	border: 0px;
+	line-height: 35px;
+}
+#cropImagePop .modal-footer button:hover {
+	opacity: 0.8;
+}
+#cropImagePop .modal-footer button:first-child {
+	background: #3052c4;
+	color: #fff;
+}
+#cropImagePop .modal-footer button:last-child {
+	background: #fb8019;
+	color: #fff;
+}
+label.cabinet {
+	display: block;
+	cursor: pointer;
+	width: 250px;
+	max-width: 100%;
+}
+label.cabinet img {
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3 linear;
+	-moz-transition: all 0.3 linear;
+	-ms-transition: all 0.3 linear;
+	-o-transition: all 0.3 linear;
+}
+label.cabinet img:hover {
+	opacity: 0.8;
+	transform: scale(1.05);
+}
+label.cabinet input.file{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  margin-top:-30px;
+}
+
+#upload-demo{
+	background: #000 !important;
+	width: 250px;
+	height: 250px;
+  padding-bottom:1px;
+}
+figure figcaption {	
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    width: 250px;
+    max-width: 100%;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px #000;
+}
+
+.file-image{
+display: none !important;
+}
