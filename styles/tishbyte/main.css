@@ -47,7 +47,7 @@ select.soflow {
 	width: 100%;
 	max-width: 100%;
 	min-height: 686px;
-	background: #272c40 url('../images/img-header.jpg')no-repeat 100%;
+	background: #272c40 url('images/img-header.jpg')no-repeat 100%;
 	background-size: cover;
 	background-position: center;
 }
